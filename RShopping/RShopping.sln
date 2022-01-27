@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{4683760A-D0B2-45AC-98BB-616F1E257E9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{03883493-B911-44AF-BD1C-1FD62441041D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RShopping.WEB", "RShopping.WEB\RShopping.WEB.csproj", "{3B1ED41E-51DC-453E-AF8D-7A8DC98B60BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B1ED41E-51DC-453E-AF8D-7A8DC98B60BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1ED41E-51DC-453E-AF8D-7A8DC98B60BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1ED41E-51DC-453E-AF8D-7A8DC98B60BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1ED41E-51DC-453E-AF8D-7A8DC98B60BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B1ED41E-51DC-453E-AF8D-7A8DC98B60BA} = {4683760A-D0B2-45AC-98BB-616F1E257E9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {112DCB91-3B9D-429B-A5ED-E7EA0DBD630D}
+	EndGlobalSection
+EndGlobal
