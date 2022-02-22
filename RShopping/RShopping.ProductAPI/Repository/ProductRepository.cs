@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RShopping.ProductAPI.Data.ValueObjects;
 using RShopping.ProductAPI.Models;
@@ -30,7 +31,7 @@ namespace RShopping.ProductAPI.Repository
             return _mapper.Map<ProductVO>(product);
         }
 
-        public async Task<ProductVO> Create(ProductVO vo)
+        public async Task<ProductVO> Create([FromBody]ProductVO vo)
         {
             Product product = _mapper.Map<Product>(vo);
             _context.Add(product);
@@ -39,7 +40,7 @@ namespace RShopping.ProductAPI.Repository
             return _mapper.Map<ProductVO>(product);
         }
 
-        public async Task<ProductVO> Update(ProductVO vo)
+        public async Task<ProductVO> Update([FromBody]ProductVO vo)
         {
             Product product = _mapper.Map<Product>(vo);
             _context.Update(product);
