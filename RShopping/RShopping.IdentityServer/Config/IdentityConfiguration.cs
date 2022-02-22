@@ -39,8 +39,8 @@ namespace RShopping.IdentityServer.Config
                     ClientId = "RShopping",
                     ClientSecrets = { new Secret("8usaduf88a998$asd".Sha256())},
                     AllowedGrantTypes = GrantTypes.Code,
-                    RedirectUris = {"https://localhost:5210/signin-oidc"},
-                    PostLogoutRedirectUris = {"https://localhost:5210/signout-callback-oidc"},
+                    RedirectUris = {"https://localhost:4435/signin-oidc"},
+                    PostLogoutRedirectUris = {"https://localhost:4435/signout-callback-oidc"},
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
